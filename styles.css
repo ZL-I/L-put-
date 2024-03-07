@@ -24,3 +24,16 @@
   font-style: normal;
   font-variation-settings: "slnt" -10 - 0;
 }
+
+/* Custom styles */
+.yellow-rectangle {
+  position: relative;
+  display: inline-block;
+}
+.yellow-box {
+  position: absolute;
+  width: calc(100% - 24px);
+  height: calc(100% - 24px);
+  background-color: #ffb800;
+  z-index: -1;
+}
