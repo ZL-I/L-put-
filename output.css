@@ -627,16 +627,8 @@ video {
   height: 3rem;
 }
 
-.h-6 {
-  height: 1.5rem;
-}
-
 .h-80 {
   height: 20rem;
-}
-
-.w-6 {
-  width: 1.5rem;
 }
 
 .w-80 {
@@ -744,10 +736,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.font-bold {
-  font-weight: 700;
 }
 
 .font-extralight {
