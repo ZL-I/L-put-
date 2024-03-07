@@ -4,11 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
     <title>PUUKOOL</title>
   </head>
-  <body>
+  <body class="inter-custom">
     <section #navigation>
-      <div class="p-4">
+      <div class="p-4 bg-[#EEEEEE]">
         <div class="grid grid-cols-2">
           <a href="/pages/index.html"
             ><img src="/assets/logo.png" class="h-12 ml-6" alt="logo"
@@ -18,64 +24,47 @@
             <a href="/pages/gallery.html">GALERII</a>
             <a href="/pages/about.html">MEIST</a>
             <a href="/pages/contact.html">KONTAKT</a>
-            <a href="/pages/cart.html"
-              ><svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="w-6 h-6"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
-                />
-              </svg>
-            </a>
           </div>
         </div>
       </div>
     </section>
 
-    <section #body>
-      <div
-        class="bg-cover bg-center bg-fixed h-100% grid pt-60 items-center"
-        style="background-image: url('/assets/pines.avif')"
-      >
-        <div
-          class="text-center text-white grid grid-cols-3 animated-fade-in-left"
-        >
-          <h1 class="ml-12 font-extralight text-5xl col-start-1 my-auto">
-            Mets algab siit!
-          </h1>
-          <p
-            class="text-xl px-5 py-4 font-extralight col-start-2 border-l-[1px] border-gray-100 my-auto"
-          >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-        </div>
-        <div class="bg-gray-200 py-8 flex justify-evenly mt-60 border-2">
-          <div class="relative group h-80 w-80">
-            <img
-              src="/assets/linden.jpg"
-              alt="Your Image"
-              class="object-cover h-80 w-80"
-            />
-            <div
-              class="absolute top-0 left-0 w-80 h-80 flex justify-center items-center opacity-0 group-hover:opacity-80 transition-opacity duration-50 bg-gray-200"
-            >
-              <p class="text-lg text-center my-auto mx-6">
-                Taime vanus: 1 aasta avajuurne. Kõrgus juurekaelast: 45cm-60cm
-              </p>
-            </div>
+    <section class="mt-20" #body>
+      <div class="grid grid-cols-3 ml-12">
+        <div class="animated-fade-in-left mt-28">
+          <div class="border-l-[1px] border-[#236818]">
+            <h1 class="ml-12 font-extralight text-5xl">Siit algab mets!</h1>
+            <p class="ml-8 text-xl pl-5 py-4 font-extralight">
+              Maa, millel meie ettevõte tegutseb on meie esiisade maa. See maa
+              on olnud meie pere kasutuses alates 1923 aastast. Alates 2019
+              aastast tegutseb selsamal põllumaal Saaremaa Metsataimed OÜ.
+            </p>
           </div>
-          <!-- <img src="/assets/linden.jpg" class="object-cover h-80 w-80" /> -->
-          <img src="/assets/pine.jpg" class="object-cover h-80 w-80 mt-52" />
-          <img src="/assets/sapling.jpg" class="object-cover h-80 w-80" />
+          <div class="grid grid-cols-2 ml-12 text-center mt-20">
+            <button class="rounded-full shadow-sm bg-[#28502E] p-3 text-white ">TOOTED</button>
+            <a class="my-auto">Võta ühendust</a>
+          </div>
         </div>
+        <img src="/assets/Picture4.jpg" class="ml-36 col-start-2 col-span-3 size-5/6" alt="" />
+      </div>
+
+      <div class="bg-gray-200 py-8 flex justify-evenly mt-60 border-2">
+        <div class="relative group h-80 w-80">
+          <img
+            src="/assets/linden.jpg"
+            alt="Your Image"
+            class="object-cover h-80 w-80"
+          />
+          <div
+            class="absolute top-0 left-0 w-80 h-80 flex justify-center items-center opacity-0 group-hover:opacity-80 transition-opacity duration-50 bg-gray-200"
+          >
+            <p class="text-lg text-center my-auto mx-6">
+              Taime vanus: 1 aasta avajuurne. Kõrgus juurekaelast: 45cm-60cm
+            </p>
+          </div>
+        </div>
+        <img src="/assets/pine.jpg" class="object-cover h-80 w-80 mt-52" />
+        <img src="/assets/sapling.jpg" class="object-cover h-80 w-80" />
       </div>
     </section>
   </body>
