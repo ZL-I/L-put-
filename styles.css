@@ -16,3 +16,11 @@
 .animated-fade-in-left {
   animation: fadeInLeft 1.5s ease-out;
 }
+
+.inter-custom {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "slnt" -10 - 0;
+}
