@@ -35,4 +35,5 @@
   width: calc(100% - 24px);
   height: calc(100% - 24px);
   background-color: #ffb800;
+  z-index: -1;
 }
