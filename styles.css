@@ -37,3 +37,14 @@
   background-color: #ffb800;
   z-index: -1;
 }
+/* styles.css */
+.fade-in-text {
+  transition: opacity 1s ease;
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+.opacity-100 {
+  opacity: 1;
+}
